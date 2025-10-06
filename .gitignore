@@ -7,4 +7,4 @@ zephyr
 zmk
 draw/base.yaml
 .DS_STORE
-:Zone.Identifier
+*:Zone.Identifier
