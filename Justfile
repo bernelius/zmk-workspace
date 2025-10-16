@@ -4,7 +4,6 @@ default:
 config := absolute_path('config')
 build := absolute_path('.build')
 out := absolute_path('firmware')
-draw := absolute_path('draw')
 
 # parse build.yaml and filter targets by expression
 _parse_targets $expr:
@@ -52,14 +51,6 @@ clean-all: clean
 # clear nix cache
 clean-nix:
     nix-collect-garbage --delete-old
-
-# parse & plot keymap
-draw:
-    #!/usr/bin/env bash
-    set -euo pipefail
-    keymap -c "{{ draw }}/config.yaml" parse -z "{{ config }}/base.keymap" --virtual-layers Combos >"{{ draw }}/base.yaml"
-    yq -Yi '.combos.[].l = ["Combos"]' "{{ draw }}/base.yaml"
-    keymap -c "{{ draw }}/config.yaml" draw "{{ draw }}/base.yaml" -k "ferris/sweep" >"{{ draw }}/base.svg"
 
 # initialize west
 init:
