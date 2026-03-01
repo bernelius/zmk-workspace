@@ -70,6 +70,16 @@ update:
 upgrade-sdk:
     nix flake update --flake .
 
+flash $board:
+    #!/usr/bin/env bash
+    if [[ -z $board ]]; then
+        echo "No board specified. Aborting..." >&2
+        exit 1
+    fi
+    if [[ $board == "totem" ]]; then
+        scripts/cp-firmware-totem
+    fi
+
 [no-cd]
 test $testpath *FLAGS:
     #!/usr/bin/env bash
