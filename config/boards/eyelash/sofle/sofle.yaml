@@ -1,0 +1,14 @@
+identifier: sofle_left/nrf52840/zmk
+name: Sofle Left
+type: mcu
+arch: arm
+toolchain:
+  - zephyr
+  - gnuarmemb
+supported:
+  - adc
+  - usb_device
+  - ble
+  - ieee802154
+  - pwm
+  - spi

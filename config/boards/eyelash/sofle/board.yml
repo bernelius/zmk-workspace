@@ -1,0 +1,25 @@
+boards:
+  - name: sofle_left
+    vendor: eyelash
+    revision:
+      format: major.minor.patch
+      default: "1.0.0"
+      exact: false
+      revisions:
+        - name: "1.0.0"
+    socs:
+      - name: nrf52840
+        variants:
+          - name: zmk
+  - name: sofle_right
+    vendor: eyelash
+    revision:
+      format: major.minor.patch
+      default: "1.0.0"
+      exact: false
+      revisions:
+        - name: "1.0.0"
+    socs:
+      - name: nrf52840
+        variants:
+          - name: zmk
