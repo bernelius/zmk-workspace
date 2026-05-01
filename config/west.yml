@@ -57,6 +57,7 @@ manifest:
       path: modules/zmk/unicode
       revision: 1a6dbc797a46c4a61c3c71a7a9d013a5d5aee49e # main (4/19/2026)
     - name: nice-view-gem-z4
+      path: modules/nice-view-gem-z4
       remote: bernelius
       revision: main
 
