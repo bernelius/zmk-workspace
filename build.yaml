@@ -13,12 +13,15 @@
 #
 ---
 include:
-  - board: xiao_ble
+  - board: xiao_ble//zmk
     shield: totem_left
-  - board: xiao_ble
+    artifact-name: totem_left
+  - board: xiao_ble//zmk
     shield: totem_right
-  - board: xiao_ble
+    artifact-name: totem_right
+  - board: xiao_ble//zmk
     shield: settings_reset
+    artifact-name: totem_settings_reset
   - board: sofle_left//zmk
     shield: nice_view_gem
     snippet: studio-rpc-usb-uart
