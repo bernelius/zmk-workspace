@@ -65,4 +65,4 @@ Left thumb 3 is a key-repeat for the pinky alphas, except V.
   Thus, s repeat repeat produces ssr, and c repeat repeat produces ccr.
 - The key also cancels caps_word when not used as a repeat key.
 
-![keymap](keymap-drawer/totem.svg)
+![keymap](draw/totem.svg)

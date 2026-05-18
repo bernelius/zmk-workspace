@@ -5,7 +5,7 @@ modules
 firmware
 zephyr
 zmk
-draw/base.yaml
-draw/overview.yaml
+draw/*.yaml
 .DS_STORE
 *:Zone.Identifier
+!draw/config.yaml
