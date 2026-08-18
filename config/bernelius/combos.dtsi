@@ -10,13 +10,13 @@ combo_q {
   layers = <PRO>;
 };
 
-compatible = "zmk,combos";
-combo_z {
-    timeout-ms = <COMBO_TIMEOUT>;
-    key-positions = <LT5 LT4>;
-    bindings = <&ak_z>;
-    layers = <PRO>;
-};
+/* compatible = "zmk,combos"; */
+/* combo_z { */
+/*     timeout-ms = <COMBO_TIMEOUT>; */
+/*     key-positions = <LT5 LT4>; */
+/*     bindings = <&ak_z>; */
+/*     layers = <PRO>; */
+/* }; */
 
 
 

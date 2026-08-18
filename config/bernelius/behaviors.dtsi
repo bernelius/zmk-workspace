@@ -116,9 +116,9 @@ hmr_i: hmr_i {
     hold-trigger-key-positions = <LEFT_HAND_KEYS THUMBS>;
 };
 
-hmr_c: hmr_c {
+hmr_z: hmr_z {
     MY_HRM_CONFIG;
-    bindings = <&kp>, <&ak_c>;
+    bindings = <&kp>, <&ak_z>;
     hold-trigger-key-positions = <LEFT_HAND_KEYS THUMBS>;
 };
 
